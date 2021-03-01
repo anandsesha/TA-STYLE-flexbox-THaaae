@@ -11,3 +11,79 @@
 
 7. Use flexbox properties and values to create columns.
  -->
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="UTF-8">
+         <title>Flexbox Block-3 - Blog and Gallery</title>
+         <link rel="stylesheet" href="assets/stylesheets/style.css">
+         <script src="https://kit.fontawesome.com/2e5837ff2f.js" crossorigin="anonymous"></script>
+     </head>
+ 
+     <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container clearfix">
+                <a class="brand" href="#">
+                    <img src="assets/media/nike.png" alt="Nike brand image">
+                </a>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Article Section-->
+        <section class="article-section">
+            <article class="article">
+                <div class="container article-position">
+                    <div class="article-column">
+                        <h1 class="article-heading">This is a Heading</h1>
+                        <p class="article-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Alias, rerum. Unde cupiditate quis nulla sequi deserunt 
+                            rem iste animi laudantium, perferendis neque nemo 
+                            reiciendis saepe molestiae provident excepturi quam ipsum!
+                        </p>
+                    </div>
+                    <div class="article-column">
+                        <img class="article-image" src="assets/media/Article3.jpg" alt="Player">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Gallery Section-->
+        <section class="gallery-section">
+            <article class="gallery">
+                <h1 class="gallery-heading">Gallery</h1>
+                <div class="container gallery-box">                   
+                    <div class="gallery-column">
+                        <img class="gallery-image" src="assets/media/abdulaziz-mohammed-74Bd5JyAthE-unsplash.jpg" alt="Pic-1">                    
+                        <img class="gallery-image" src="assets/media/andrew-ruiz-m02QgMURGwc-unsplash.jpg" alt="Pic-2">                    
+                        <img class="gallery-image" src="assets/media/docusign-uI-fScjuXnI-unsplash.jpg" alt="Pic-3">
+                    <div class="gallery-column">
+                        <img class="gallery-image" src="assets/media/hudai-gayiran-Lx7TncJ7pks-unsplash.jpg" alt="Pic-4">                   
+                        <img class="gallery-image" src="assets/media/toa-heftiba-TZF0WM46yg4-unsplash.jpg" alt="Pic-5">
+                        <img class="gallery-image" src="assets/media/vadim-sadovski-bdeDj8nhvf8-unsplash.jpg" alt="Pic-6">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container find-us">
+                <nav class="nav">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-vimeo"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+     </body>
+ </html>
