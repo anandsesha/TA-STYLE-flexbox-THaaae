@@ -6,3 +6,70 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox- Assignment-1 | Gallery</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <script src="https://kit.fontawesome.com/2e5837ff2f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+            <!-- Header -->
+            <header class="header">
+                <div class="container flex">
+                    <a class="brand" href="#">
+                        <img src="assets/media/altcampus.jpg" alt="brand image">
+                    </a>
+                    <nav class="nav">
+                        <a href="#">Home</a>
+                        <a class="gallery-color" href="#">Gallery</a>
+                        <a href="#">About</a>
+                    </nav>
+                </div>
+            </header>
+            <!-- Gallery -->
+            <section class="gallery">
+                <div class="container">
+                    <h1 class="gallery-heading">GALLERY</h1>
+                    <div class="flex-container">
+                        <div class="column">
+                            <img src="assets/media/01.png" alt="Pic-1">
+                        </div>
+                        <div class="column">
+                            <img src="assets/media/02.png" alt="Pic-2">
+                        </div>
+                        <div class="column">
+                            <img src="assets/media/03.png" alt="Pic-3">
+                        </div>
+                        <div class="column">
+                            <img src="assets/media/04.png" alt="Pic-4">
+                        </div>
+                        <div class="column">
+                            <img src="assets/media/05.png" alt="Pic-5">
+                        </div>
+                        <div class="column">
+                            <img src="assets/media/06.png" alt="Pic-6">
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container flex">
+                    <small>&copy; AltCampus</small>
+                    <nav class="find-us">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </nav>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
