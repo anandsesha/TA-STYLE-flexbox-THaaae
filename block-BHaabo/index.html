@@ -6,3 +6,100 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox Assignment-2 | Blog Dashboard</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <script src="https://kit.fontawesome.com/2e5837ff2f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container flex">
+                <a class="brand" href="#">
+                    <img src="assets/media/altcampus.jpg" alt="brand image">
+                </a>
+                <nav class="nav">
+                    <a href="#">
+                        <img src="assets/icons/bell.svg" alt="bell icon">
+                    </a>
+                    <a href="#">
+                        <span>Sarah Jone</span>
+                        <img src="assets/icons/user.svg" alt="user">
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <!-- Options selection-->
+                <div class="container flex-container">
+                    <aside class="aside">
+                            <div class="options">                                
+                                <a class="icons flex-icon" href="#">
+                                    <img src="assets/icons/dashboard.svg" alt="Dashboard icon">
+                                    <h2>Dashboard</h2>
+                                </a>
+                                <a class="icons flex-icon active" href="#">
+                                    <img src="assets/icons/article.svg" alt="Article icon">
+                                    <h2>Articles</h2>
+                                </a>  
+                                <a class="icons flex-icon" href="#">
+                                    <img src="assets/icons/analytics.svg" alt="Analytics icon">
+                                    <h2>Analytics</h2>
+                                </a>  
+                                <a class="icons flex-icon" href="#">
+                                    <img src="assets/icons/inbox.svg" alt="Inbox icon">
+                                    <h2>Inbox</h2>
+                                </a>
+                                
+                                <a class="icons flex-icon" href="#">
+                                    <img src="assets/icons/setting.svg" alt="Settings icon">
+                                    <h2>Settings</h2>
+                                </a>
+                            </div>
+                            <a class="icons flex-icon log-out">
+                                <img src="assets/icons/log-out.svg" alt="Logout icon">
+                                <h2>Log Out</h2>
+                            </a>
+                    </aside>
+                    <!-- Article -->
+                    <article class="altcampus-article">                        
+                        <img class="article-image" src="assets/media/01.png" alt="Image">
+                        <h1 class="article-heading">Why are we doing AltCampus?</h1>
+                        <p class="article-text">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Odio ipsum nam, distinctio 
+                            error qui aut optio facere maiores dolorum. 
+                            Eveniet voluptas totam tenetur labore nemo quae libero quo doloremque eius.
+                        </p>
+                        <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Odio ipsum nam, distinctio 
+                            error qui aut optio facere maiores dolorum. 
+                            Eveniet voluptas totam tenetur labore nemo quae libero quo doloremque eius.
+                        </p>
+                        <div class="read-more">
+                            <a class="btn" href="#">Read More</a>
+                        </div>
+                    </article>
+                </div>            
+            </section> 
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container flex">
+                <small>&copy; AltCampus</small>
+                <nav class="find-us">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
